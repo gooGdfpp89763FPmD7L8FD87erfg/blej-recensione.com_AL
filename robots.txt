@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /faleminderit.html
+
+Sitemap: https://blej-recensione.com/sitemap.xml
