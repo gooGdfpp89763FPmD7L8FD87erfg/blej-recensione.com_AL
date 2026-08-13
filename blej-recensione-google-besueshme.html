@@ -571,28 +571,6 @@
         </div>
     </section>
 
-    <section class="testimonials">
-        <div class="container">
-            <h2 class="section-title">E provuan dhe mbetën.</h2>
-            <div class="testimonials-grid">
-                <div class="testimonial-card">
-                    <img src="blej-recensione-google-reale.webp" alt="blej recensione google reale" title="përmirso vlerësimin google" width="539" height="1025" class="testimonial-img" loading="lazy">
-                </div>
-                <div class="testimonial-card">
-                    <img src="blej-recensione-google-5-yje.webp" alt="blej recensione google" title="blej recensione negative google" width="539" height="1025" class="testimonial-img" loading="lazy">
-                </div>
-                <div class="testimonial-card">
-                    <img src="permirso-vleresimin-google.webp" alt="rrit recensione google" title="recensione google false" width="539" height="1025" class="testimonial-img" loading="lazy">
-                </div>
-                <div class="testimonial-card">
-                    <img src="rrit-recensione-google.webp" alt="fshi recensione google" title="fshi recensione google" width="539" height="1025" class="testimonial-img" loading="lazy">
-                </div>
-                <div class="testimonial-card">
-                    <img src="blej-recensione-google-besueshme.webp" alt="blej recensione google" title="blej recensione google" width="539" height="1025" class="testimonial-img" loading="lazy">
-                </div>
-            </div>
-        </div>
-    </section>
 
     <section class="seo-content">
         <div class="container">
@@ -789,7 +767,7 @@
                 }
             }
             window.addEventListener('scroll', updateHeader);
-            const animateElements = document.querySelectorAll('.stat-card, .step, .pricing-card, .testimonial-card, .faq-item');
+            const animateElements = document.querySelectorAll('.stat-card, .step, .pricing-card, .faq-item');
             const observerOptions = { threshold: 0.1, rootMargin: '0px 0px -50px 0px' };
             const observer = new IntersectionObserver(function(entries) {
                 entries.forEach(entry => {
